@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("assets/images/newOrleans.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	font-weight: 100;
+	margin-top: 15px;
+	text-align: center;
+	display: inline-block;
+	color: gold;
+	font-family: 'Righteous', serif;
+	font-size: 5em; 
+	margin-left: 600px;
+	text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+}
+
+h2 {
+	color: #000;
+}
+
+#start {
+	background-color: black; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+/*quiz area*/
+div#quiz-area {
+	padding: 10px;
+}
+
+/*form with questions*/
+div#sub-wrapper {
+	background: #fff;
+	border: dashed 2px gold;
+	opacity: 0.9;
+	text-align: center;
+	width: 70%;
+	margin-left: 300px;
+}
